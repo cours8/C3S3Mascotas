@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_cv_mascota_post">16pd</dimen>
+    <dimen name="cardcorner_cv_mascota_post">4dp</dimen>
+    <dimen name="padding_vertlayout_cv_contacto">8dp</dimen>
+    <dimen name="padding_linearh_cv_contacto">2dp</dimen>
+    <dimen name="titulo_cv_mascota_post">28sp</dimen>
+    <dimen name="puntos_cv_mascota_post">24sp</dimen>
+    <dimen name="top_padding_linearh_cv_contacto">4dp</dimen>
+</resources>

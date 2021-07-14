@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="MascotaPostTitulo">
+        <item name="android:layout_marginRight">@dimen/divider_cv_mascota_post</item>
+        <item name="android:textColor">@color/colorAccent</item>
+        <item name="android:textSize">@dimen/titulo_cv_mascota_post</item>
+    </style>
+
+    <style name="MascotaPostPuntos">
+        <item name="android:layout_marginLeft">@dimen/divider_cv_mascota_post</item>
+        <item name="android:textColor">?attr/colorPrimaryDark</item>
+        <item name="android:textSize">@dimen/puntos_cv_mascota_post</item>
+    </style>
+
+    <style name="ic_izq_titulo_mascota_post">
+        <item name="android:layout_marginRight">@dimen/divider_cv_mascota_post</item>
+    </style>
+
+    <style name="ic_der_titulo_mascota_post">
+        <item name="android:layout_marginLeft">@dimen/divider_cv_mascota_post</item>
+    </style>
+
+    <dimen name="divider_cv_mascota_post">5sp</dimen>
+</resources>

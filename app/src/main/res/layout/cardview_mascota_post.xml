@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cvMascotaPost"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/margin_cv_mascota_post"
+    android:layout_width="match_parent"
+    card_view:cardCorner="@dimen/cardcorner_cv_mascota_post">
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/padding_vertlayout_cv_contacto">
+        <ImageView
+            android:id="@+id/ivFotoMascotaPost"
+            android:contentDescription="@string/iv_foto_mascota_post"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintDimensionRatio="H,1:1"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"            android:src="@drawable/ic_dog"
+            />
+
+            <android.support.v7.widget.LinearLayoutCompat
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:padding="@dimen/padding_linearh_cv_contacto"
+                android:layout_marginTop="@dimen/top_padding_linearh_cv_contacto"
+                app:layout_constraintTop_toBottomOf="@id/ivFotoMascotaPost">
+                <ImageView
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/hueso_byn"
+                    style="@style/ic_izq_titulo_mascota_post"
+                    card_view:ignore="ContentDescription" />
+                <TextView
+                    android:id="@+id/tvTituloMascotaPost"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:theme="@style/MascotaPostTitulo"
+                    android:text="@string/tv_titulo_mascota_post"/>
+                <TextView
+                    android:id="@+id/tvPuntosMascotaPost"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    style="@style/MascotaPostPuntos"
+                    android:text="@string/puntos_mascota_no"/>
+                <ImageView
+                    android:id="@+id/ivPuntosMascotaPost"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitXY"
+                    android:src="@mipmap/hueso_color_no"
+                    style="@style/ic_der_titulo_mascota_post"
+                    card_view:ignore="ContentDescription" />
+            </android.support.v7.widget.LinearLayoutCompat>
+        </android.support.constraint.ConstraintLayout>
+</android.support.v7.widget.CardView>
